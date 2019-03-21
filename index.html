@@ -1,28 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <link rel="shortcut icon" href="https://gstpsk.github.io/favicon.ico" type="image/icon"> <link rel="icon" href="https://gstpsk.github.io/favicon.ico" type="image/icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <link
+      rel="shortcut icon"
+      href="https://gstpsk.github.io/favicon.ico"
+      type="image/icon"
+    />
+    <link
+      rel="icon"
+      href="https://gstpsk.github.io/favicon.ico"
+      type="image/icon"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <title>gstpsk - Home</title>
     <style>
       @keyframes shadow {
-        0%{
-            transform: rotate(xx);
-          }
-          100%{
-            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
-          }
+        0% {
+          transform: rotate(xx);
+        }
+        100% {
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        }
       }
 
-        @keyframes shadowout {
-          0%{
-            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
-          }
-          100%{
-            box-shadow: 0 0rem 0rem rgba(0,0,0,.0);
-          }
+      @keyframes shadowout {
+        0% {
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        }
+        100% {
+          box-shadow: 0 0rem 0rem rgba(0, 0, 0, 0);
+        }
       }
 
       .card-body:hover {
@@ -36,17 +53,16 @@
       }
 
       a {
-        color: #B54342;
+        color: #b54342;
       }
 
       a:hover {
-        color: #8F3334;
+        color: #8f3334;
       }
       .btn {
-        background-color: #B54342;
+        background-color: #b54342;
         border-style: none;
         color: #fff4d8;
-
       }
       .btn:hover {
         opacity: 0.75;
@@ -66,7 +82,7 @@
       }
 
       #reddit-btn {
-        background-color: #FF4301;
+        background-color: #ff4301;
       }
 
       #github-btn {
@@ -77,69 +93,112 @@
         margin-top: 200px;
       }
 
+      .unselectable {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
     </style>
   </head>
-    <body style="background-color: #FFF4D8; margin-bottom: 20px">
-
+  <body style="background-color: #FFF4D8; margin-bottom: 20px">
     <div class="container text-center" style="margin-top: 50px;">
       <div style="background-color: #E0D6BE" class="jumbotron shadow-sm">
-        <img src="avatar.jpg" class="avatar">
+        <img src="avatar.jpg" class="avatar" />
         <h1 class="display-4">gstpsk</h1>
-        <p class="lead" style="margin-top: 25px;">Hi, I'm gstpsk. I'm an aspiring iOS and tweak developer</p>
+        <p class="lead" style="margin-top: 25px;">
+          Hi, I'm gstpsk. I'm an aspiring iOS and tweak developer
+        </p>
         <div class="btn-group-lg" role="group" aria-label="Homebuttons">
-          <a href="https://gstpsk.github.io/" class="btn btn-danger" id="thisone">Home</a>
-          <a href="https://gstpsk.github.io/cydia" class="btn btn-danger">My Repo</a>
+          <a
+            href="https://gstpsk.github.io/"
+            class="btn btn-danger"
+            id="thisone"
+            >Home</a
+          >
+          <a href="https://gstpsk.github.io/cydia" class="btn btn-danger"
+            >My Repo</a
+          >
         </div>
       </div>
     </div>
 
-
-
-    <div style="cursor: pointer;" class="container text-center" data-toggle="collapse" data-target="#Projectscollapse" aria-expanded="false" aria-controls="Projectscollapse">
-      <hr class="my-2">
+    <div
+      style="cursor: pointer;"
+      class="container text-center"
+      data-toggle="collapse"
+      data-target="#Projectscollapse"
+      aria-expanded="false"
+      aria-controls="Projectscollapse"
+    >
+      <hr class="my-2" />
       <div class="row">
         <div class="col-12">
-          <h1 class="display-4">Projects I'm working on</h1>
-          <img style="margin-bottom: 25px;" src="arrow down.svg" class="arrowdown">
+          <h1 class="display-4 unselectable">Projects I'm working on</h1>
+          <img
+            style="margin-bottom: 25px;"
+            src="arrow down.svg"
+            class="arrowdown"
+          />
         </div>
       </div>
     </div>
-
-
 
     <div class="container collapse" id="Projectscollapse">
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card" style="background-color: #E0D6BE; border-style: none; margin-top: 20px;">
+          <div
+            class="card"
+            style="background-color: #E0D6BE; border-style: none; margin-top: 20px;"
+          >
             <div class="card-body">
               <h4 class="card-title">Cydia repo</h4>
-              <h6 class="card-subtitle mb-2 text-muted">A repository for cydia</h6>
+              <h6 class="card-subtitle mb-2 text-muted">
+                A repository for cydia
+              </h6>
               <p class="card-text">
-                I host a cydia repo where i upload multiple tweaks and themes. I am busy with refining this repo to be reliable and easy to use.
+                I host a cydia repo where i upload multiple tweaks and themes. I
+                am busy with refining this repo to be reliable and easy to use.
               </p>
-              <a href="https://gstpsk.github.io/cydia" class="card-link">Go to my repo.</a>
+              <a href="https://gstpsk.github.io/cydia" class="card-link"
+                >Go to my repo.</a
+              >
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card" style="background-color: #E0D6BE; border-style: none; margin-top: 20px;">
+          <div
+            class="card"
+            style="background-color: #E0D6BE; border-style: none; margin-top: 20px;"
+          >
             <div class="card-body">
               <h4 class="card-title">Packager</h4>
-              <h6 class="card-subtitle mb-2 text-muted">Tweak installer for rootlessJB</h6>
+              <h6 class="card-subtitle mb-2 text-muted">
+                Tweak installer for rootlessJB
+              </h6>
               <p class="card-text">
-                  Packager is a tweak installer for rootlessJB with fast and reliable tweak installation. Packager supports installation of tweaks that are pre-patched.
+                Packager is a tweak installer for rootlessJB with fast and
+                reliable tweak installation. Packager supports installation of
+                tweaks that are pre-patched.
               </p>
-              <a href="https://packager.conorthedev.com" class="card-link">Learn more.</a>
+              <a href="https://packager.conorthedev.com" class="card-link"
+                >Learn more.</a
+              >
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card" style="background-color: #E0D6BE; border-style: none; margin-top: 20px;">
+          <div
+            class="card"
+            style="background-color: #E0D6BE; border-style: none; margin-top: 20px;"
+          >
             <div class="card-body">
               <h4 class="card-title">Hestia</h4>
               <h6 class="card-subtitle mb-2 text-muted">A package manager.</h6>
               <p class="card-text">
-                  More info coming soon!
+                More info coming soon!
               </p>
             </div>
           </div>
@@ -148,21 +207,47 @@
     </div>
 
     <div class="container text-center">
-      <hr class="my-2" style="margin-top: 20px!important">
+      <hr class="my-2" style="margin-top: 20px!important" />
       <div style="margin-top: 20px;">
         <div class="btn-group-lg" role="group" aria-label="Homebuttons">
-          <a href="https://twitter.com/gstpsk" class="btn btn-primary" id="twitter-btn">Twitter</a>
-          <a href="https://www.reddit.com/user/gijsberttepaske" class="btn btn-danger" id="reddit-btn">Reddit</a>
-          <a href="https://github.com/gstpsk" class="btn btn-dark" id="github-btn">Github</a>
+          <a
+            href="https://twitter.com/gstpsk"
+            class="btn btn-primary"
+            id="twitter-btn"
+            >Twitter</a
+          >
+          <a
+            href="https://www.reddit.com/user/gijsberttepaske"
+            class="btn btn-danger"
+            id="reddit-btn"
+            >Reddit</a
+          >
+          <a
+            href="https://github.com/gstpsk"
+            class="btn btn-dark"
+            id="github-btn"
+            >Github</a
+          >
         </div>
       </div>
     </div>
 
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
